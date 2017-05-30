@@ -29,7 +29,9 @@ If you want to build your own version of Open GApps, you'll need to fetch the gi
 
 To initialize your local repository using the Open GApps source tree, clone the main repository with the command:
 ```
-git clone git@github.com:opengapps/opengapps.git
+git clone https://github.com/opengapps/opengapps.git
+
+git@git support will fail on most computers.
 ```
 Then sync the submodules to get the original APK sources as provided by Google. Take note that these repositories are very large (in the order of GiBs).
 You can also use this command to update the sources at a later moment to their most recent version:
